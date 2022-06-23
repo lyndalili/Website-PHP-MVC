@@ -15,10 +15,10 @@ if ($_SERVER["HTTP_HOST"] == "localhost:8888") {
     
 } else {
     //en prod
-    define("DB_HOST", "sql105.epizy.com");
-    define("DB_NAME", "epiz_32024732_lyndahaddad");
-    define("DB_USER", "epiz_32024732");
-    define("DB_PASSWORD", "R69InREZn0");
+    define("DB_HOST", "");
+    define("DB_NAME", "");
+    define("DB_USER", "");
+    define("DB_PASSWORD", "");
     define("DB_CHARSET", "utf8");
     define("DEV", false);
     define("DEFAULT_MODULE", "posts");
